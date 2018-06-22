@@ -7,6 +7,7 @@ import java.util.*;
 * @author Sahil
 */
 
+//Now i have covered all cases of user input :-)
 
 public class DateToEnglishByUserInput {
 	
@@ -64,7 +65,7 @@ public class DateToEnglishByUserInput {
 		month.put("12", "December");
 
 		
-		first.put("00", "Hundred");
+		first.put("00", "Hundred"); //first get year ending two digits part
 		first.put("01", "First");
 		first.put("02", "Second");
 		first.put("03", "Third");
@@ -75,6 +76,7 @@ public class DateToEnglishByUserInput {
 		first.put("08", "Eighth");
 		first.put("09", "Ninth");
 		first.put("10", "Tenth");
+		
 		first.put("11", "Eleventh");
 		first.put("12", "Twelve");
 		first.put("13", "Thirteen");
@@ -85,6 +87,7 @@ public class DateToEnglishByUserInput {
 		first.put("18", "Eighteen");
 		first.put("19", "Nineteen");
 		first.put("20", "Twenty");
+		
 		first.put("21", "Twenty One");
 		first.put("22", "Twenty Two");
 		first.put("23", "Twenty Three");
@@ -95,11 +98,61 @@ public class DateToEnglishByUserInput {
 		first.put("28", "Twenty Eight");
 		first.put("29", "Twenty Nine");
 		first.put("30", "Thirty");
+
+		first.put("31", "Thirty one");
+		first.put("32", "Thirty two");
+		first.put("33", "Thirty three");
+		first.put("34", "Thirty four");
+		first.put("35", "Thirty five");
+		first.put("36", "Thirty six");
+		first.put("37", "Thirty seven");
+		first.put("38", "Thirty eight");
+		first.put("39", "Thirty nine");
 		
 		first.put("40", "Forty");
+		first.put("41", "Forty one");
+		first.put("42", "Forty two");
+		first.put("43", "Forty three ");
+		first.put("44", "Forty four");
+		first.put("45", "Forty five");
+		first.put("46", "Forty six");
+		first.put("47", "Forty seven");
+		first.put("48", "Forty eight");
+		first.put("49", "Forty nine");
+		
 		first.put("50", "Fifty");
+		first.put("51", "Fifty one");
+		first.put("52", "Fifty two");
+		first.put("53", "Fifty three");
+		first.put("54", "Fifty four");
+		first.put("55", "Fifty five");
+		first.put("56", "Fifty six");
+		first.put("57", "Fifty seven");
+		first.put("58", "Fifty eight");
+		first.put("59", "Fifty nine");
+		
 		first.put("60", "Sixty");
+		first.put("61", "Sixty one");
+		first.put("62", "Sixty two");
+		first.put("63", "Sixty three");
+		first.put("64", "Sixty four");
+		first.put("65", "Sixty five");
+		first.put("66", "Sixty six");
+		first.put("67", "Sixty seven");
+		first.put("68", "Sixty eight");
+		first.put("69", "Sixty nine");
+		
 		first.put("70", "Seventy");
+		first.put("71", "Seventy one");
+		first.put("72", "Seventy two");
+		first.put("73", "Seventy three");
+		first.put("74", "Seventy four");
+		first.put("75", "Seventy five");
+		first.put("76", "Seventy six");
+		first.put("77", "Seventy seven");
+		first.put("78", "Seventy eight");
+		first.put("79", "Seventy nine");
+		
 		first.put("80", "Eighty");
 		first.put("81", "Eighty one");
 		first.put("82", "Eighty two");
@@ -110,6 +163,7 @@ public class DateToEnglishByUserInput {
 		first.put("87", "Eighty seven");
 		first.put("88", "Eighty eight");
 		first.put("89", "Eighty nine");
+		
 		first.put("90", "Ninety");
 		first.put("91", "Ninety one");
 		first.put("92", "Ninety two");
@@ -122,7 +176,7 @@ public class DateToEnglishByUserInput {
 		first.put("99", "Ninety nine");
 		
 		
-		last.put("00", "");
+		last.put("00", ""); //last get year front part
 		last.put("01", "One");
 		last.put("02", "Two");
 		last.put("03", "Three");
@@ -152,6 +206,75 @@ public class DateToEnglishByUserInput {
 		last.put("27", "Twenty Seven");
 		last.put("28", "Twenty Eight");
 		last.put("29", "Twenty Nine");
+		
+		last.put("30", "Thirty");
+
+		last.put("31", "Thirty one");
+		last.put("32", "Thirty two");
+		last.put("33", "Thirty three");
+		last.put("34", "Thirty four");
+		last.put("35", "Thirty five");
+		last.put("36", "Thirty six");
+		last.put("37", "Thirty seven");
+		last.put("38", "Thirty eight");
+		last.put("39", "Thirty nine");
+		
+		last.put("40", "Forty");
+		last.put("41", "Forty one");
+		last.put("42", "Forty two");
+		last.put("43", "Forty three ");
+		last.put("44", "Forty four");
+		last.put("45", "Forty five");
+		last.put("46", "Forty six");
+		last.put("47", "Forty seven");
+		last.put("48", "Forty eight");
+		last.put("49", "Forty nine");
+		
+		last.put("50", "Fifty");
+		last.put("51", "Fifty one");
+		last.put("52", "Fifty two");
+		last.put("53", "Fifty three");
+		last.put("54", "Fifty four");
+		last.put("55", "Fifty five");
+		last.put("56", "Fifty six");
+		last.put("57", "Fifty seven");
+		last.put("58", "Fifty eight");
+		last.put("59", "Fifty nine");
+		
+		last.put("60", "Sixty");
+		last.put("61", "Sixty one");
+		last.put("62", "Sixty two");
+		last.put("63", "Sixty three");
+		last.put("64", "Sixty four");
+		last.put("65", "Sixty five");
+		last.put("66", "Sixty six");
+		last.put("67", "Sixty seven");
+		last.put("68", "Sixty eight");
+		last.put("69", "Sixty nine");
+		
+		last.put("70", "Seventy");
+		last.put("71", "Seventy one");
+		last.put("72", "Seventy two");
+		last.put("73", "Seventy three");
+		last.put("74", "Seventy four");
+		last.put("75", "Seventy five");
+		last.put("76", "Seventy six");
+		last.put("77", "Seventy seven");
+		last.put("78", "Seventy eight");
+		last.put("79", "Seventy nine");
+		
+		last.put("80", "Eighty");
+		last.put("81", "Eighty one");
+		last.put("82", "Eighty two");
+		last.put("83", "Eighty three");
+		last.put("84", "Eighty four");
+		last.put("85", "Eighty five");
+		last.put("86", "Eighty six");
+		last.put("87", "Eighty seven");
+		last.put("88", "Eighty eight");
+		last.put("89", "Eighty nine");
+		
+		
 		last.put("91", "Ninety one");
 		last.put("92", "Ninety two");
 		last.put("93", "Ninety three");
